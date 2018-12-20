@@ -3,7 +3,7 @@ var app = express();
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
-mongoose.connect("mongodb://localhost:27107/NodeBlog");
+mongoose.connect("mongodb://localhost:27017/NodeBlog");
 
 const port = 8080
 
